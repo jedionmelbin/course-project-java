@@ -1,6 +1,6 @@
 package com.xprotech.app;
 
-import com.xprotech.app.collections.ChapterCollection01;
+import com.xprotech.app.collections.ChapterCollection04;
 
 /**
  *
@@ -12,13 +12,10 @@ public class CourseProjectJava {
 
         System.out.println("Start:: execution::");
         
-        ChapterCollection01 collection01 = new ChapterCollection01();
-
-        //collection01.getProducts();
-
-        //collection01.getProducts1();
-
-        //collection01.getProducts2();
+        ChapterCollection04 collection04 = new ChapterCollection04();
+           
+        collection04.getCustomers();
+        
 
         System.out.println("Finish execution::");
     }
