@@ -1,6 +1,6 @@
 package com.xprotech.app;
 
-import com.xprotech.app.collections.ChapterCollection04;
+import com.xprotech.app.algorithms.TreeMaxValue;
 
 /**
  *
@@ -12,9 +12,9 @@ public class CourseProjectJava {
 
         System.out.println("Start:: execution::");
         
-        ChapterCollection04 collection04 = new ChapterCollection04();
+        TreeMaxValue algorithm01 = new TreeMaxValue();
            
-        collection04.getCustomers();
+        algorithm01.program();
         
 
         System.out.println("Finish execution::");
